@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body{
+  background-color: antiquewhite;
+}
+
+/* What does * mean in CSS code?
+The * means "all elements" (a universal selector), so we are setting all elements to have zero margins, and zero padding, thus making them look the same in all browsers.*/
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  font-family: 'Ubuntu', sans-serif;
+}
+.nav-list li a{
+  color: antiquewhite;
+  text-decoration: none;
+}
+.nav-list li a:hover{
+  color:greenyellow;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 65px;
+  background-color: black;
+  color: white;
+}
+
+nav ul li{
+  padding: 0 12px;
+}
+
+.brand img{
+  width: 76px;
+  padding: 0 8px;
+}
+
+.brand{
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+.container h1{
+  min-height: 1vh;
+  background-color:sandybrown;
+  color:darkslategray;
+  font-family: 'Varela Round', sans-serif;
+  margin: auto auto;
+  padding: 10px;
+}
+
+.container h2{
+  min-height: 72vh;
+  background-color:darkmagenta;
+  color:black;
+  font-family: 'Varela Round', sans-serif;
+  display: flex;
+  margin: 23px auto;
+  width: 70%;
+  border-radius: 12px;
+  padding: 34px;
+  background-image: url('back2.jpg');
+  
+}
+
+

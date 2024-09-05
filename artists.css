@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body{
+  background-color:lavenderblush;
+}
+
+/* What does * mean in CSS code?
+The * means "all elements" (a universal selector), so we are setting all elements to have zero margins, and zero padding, thus making them look the same in all browsers.*/
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  font-family: 'Ubuntu', sans-serif;
+}
+.nav-list li a{
+  color: antiquewhite;
+  text-decoration: none;
+}
+.nav-list li a:hover{
+  color:greenyellow;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 65px;
+  background-color: black;
+  color: white;
+}
+
+nav ul li{
+  padding: 0 12px;
+}
+
+.brand img{
+  width: 76px;
+  padding: 0 8px;
+}
+
+.brand{
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+h1
+{
+    background-color: beige;
+}
+
+
+.container1{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container2{
+    background-color: rgb(55, 176, 200);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container3{
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container4{
+    background-color: rgb(209, 211, 87);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container5{
+    background-color:lavenderblush;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.a1{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.a2{
+    width:10%;
+
+}
+.a2 img{
+    width:183px;
+}
+.b1{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.b2{
+    width:10%;
+
+}
+.b2 img{
+    width: 183px;
+    padding: auto;
+}
+.c2 img{
+    width: 183px;
+    padding: auto;
+}
+.d2 img{
+    width: 183px;
+    padding: auto;
+}
+.e2 img{
+    width: 183px;
+    padding: auto;
+}
+.c1{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.c2{
+    width:10%;
+
+}
+.d1{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.d2{
+    width:10%;
+
+}
+.e1{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.e2{
+    width:10%;
+
+}
